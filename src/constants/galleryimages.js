@@ -8,6 +8,9 @@ import gvnight5 from "../assets/images/gvnight5.jpg";
 import gallery1 from "../assets/images/gallery1.jpg";
 import gallery2 from "../assets/images/gallery2.jpg";
 import gallery3 from "../assets/images/gallery3.jpg";
+import gallery4 from "../assets/images/gallery4.jpg";
+import gallery5 from "../assets/images/gallery5.jpg";
+import gallery6 from "../assets/images/gallery6.jpg";
 
 const Images = [
   {
@@ -45,6 +48,18 @@ const Images = [
   {
     index: 9,
     src: gvnight5,
+  },
+  {
+    index: 10,
+    src: gallery4,
+  },
+  {
+    index: 11,
+    src: gallery5,
+  },
+  {
+    index: 12,
+    src: gallery6,
   },
 ];
 

@@ -2,38 +2,36 @@ const Footer = () => {
   return (
     <div className="bg-gray-900 text-white">
       <div className="container mx-auto gap-8 px-4 py-8 flex flex-col md:flex-row justify-center items-center">
-        <div>
-          <a
-            href="https://maps.app.goo.gl/FXHqaNJxntM1myCF7"
-            className="flex items-center mb-4 md:mb-0"
+        <a
+          href="https://maps.app.goo.gl/FXHqaNJxntM1myCF7"
+          className="flex items-center mb-4 md:mb-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            height="30px"
+            width="30px"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="w-6 h-6 mr-2"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              height="30px"
-              width="30px"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-6 h-6 mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-              />
-            </svg>
-            <div>
-              <h1 className="font-semibold">Visit</h1>
-              <p>Al Khaleej Centre Bur Dubai</p>
-            </div>
-          </a>
-        </div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+            />
+          </svg>
+          <div>
+            <h1 className="font-semibold">Visit</h1>
+            <p>Al Khaleej Centre Bur Dubai</p>
+          </div>
+        </a>
         <div className="flex items-center mb-4 md:mb-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +57,7 @@ const Footer = () => {
         <div className="flex items-center mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
+            fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             height="30px"

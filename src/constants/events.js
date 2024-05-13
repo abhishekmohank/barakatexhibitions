@@ -1,3 +1,5 @@
+import gallery1 from "../assets/images/gallery1.jpg";
+
 const Events = [
   {
     id: 1,
@@ -7,7 +9,7 @@ const Events = [
     link: "https://www.google.com",
     description:
       "HAWA HERITAGE FESTIVAL, Conducted in MADINA, SAUDI ARABIA from May 1 to July 2024",
-    image: "https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png",
+    image: gallery1,
   },
   {
     id: 2,
@@ -16,7 +18,7 @@ const Events = [
     date: "NOV 2024",
     link: "https://www.google.com",
     description: "JEDDA TRADEFARE, Conducted in SAUDI ARABIA from NOV 2024",
-    image: "https://via.placeholder.com/150",
+    image: "https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png",
   },
   {
     id: 3,
