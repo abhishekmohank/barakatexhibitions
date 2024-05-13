@@ -8,21 +8,19 @@ const Company = () => {
         alt=""
         className="absolute object-cover -z-10 w-full "
       />
-      <div
-        className=" inset-0 bg-red-500 opacity-50"
-        style={{ mixBlendMode: "multiply" }}
-      ></div>
 
-      <div className="p-20 flex justify-center items-center">
-        <div className="w-96 h-96 rounded-full bg-white flex flex-col justify-center  text-center">
-          <h1 className="pb-5 font-semibold text-lg ">
-            Team of Exhibhition Specialist
+      <div className="relative p-20 flex justify-center">
+        <div className="bg-[#a60000] opacity-50 absolute inset-0"></div>
+        <div className="md:w-96 md:h-96 bg-white flex flex-col  text-center relative z-10 rounded-[30px]">
+          <h1 className="p-5 pt-10 font-semibold text-3xl">
+            Team of Exhibition Specialist
           </h1>
-          <p className="p-3">
+          <p className="px-8 pt-5 text-base">
             Shams Al Barakat Exhibitions LLC is the Event and Exhibition
             Specialist based in Dubai, United Arab Emirates, engaged in the
-            Exhibition in the entire middle East cities – Dubai, Abu Dhabi, Al
-            Ain (UAE) Madina, Jedda and Riyad(Saudi Arabia) Kuwait City(Kuwait)
+            Exhibition in the entire Middle East cities – Dubai, Abu Dhabi, Al
+            Ain (UAE) Madina, Jeddah, and Riyadh (Saudi Arabia) Kuwait City
+            (Kuwait)
           </p>
         </div>
       </div>

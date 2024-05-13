@@ -10,12 +10,12 @@ import Footer from "../Components/Footer";
 const About = () => {
   return (
     <div>
-      <div className="bg-[#002e5d]">
+      <div className="bg-gray-900">
         <Header />
       </div>
       <div className="2xl:container  py-9">
         <div className="flex  flex-col 2xl:mx-auto lg:py-16  md:py-12 md:px-6 lg:flex-row lg:px-20justify-between gap-8">
-          <div className="w-full lg:w-5/12 flex flex-col justify-center">
+          <div className="w-full lg:w-5/12 flex flex-col justify-center p-5">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
               About Us
             </h1>
@@ -54,7 +54,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col justify-center gap-8 py-10 bg-[#002e5d]">
+        <div className="flex lg:flex-row flex-col justify-center gap-8 py-10 bg-gray-900">
           <div className="w-full lg:w-9/12 flex flex-col p-10 justify-center items-center">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-white  pt-3 pb-5">
               Our Vision
@@ -83,12 +83,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col px-10 gap-8 pt-12">
-          <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+        <div className="flex flex-col  gap-8 pt-12">
+          <h1 className="text-3xl lg:text-4xl px-10 font-bold leading-9 text-gray-800 pb-4">
             Meet the Team
           </h1>
-          <div className="flex md:flex-row justify-around">
-            <div className="w-3/5">
+          <div className="flex md:flex-row flex-col-reverse px-10 justify-around">
+            <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
                   Chandran Bepu
@@ -135,23 +135,23 @@ const About = () => {
               </div>
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img className=" w-64" src={CeoImg} alt="Himanshu Img" />
+              <img className=" w-64" src={CeoImg} alt="CEO Img" />
 
               <p className=" font-medium text-xl leading-5 text-gray-800 mt-4">
                 Chandran Bepu
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row justify-around">
-            <div className="w-3/5">
+          <div className="flex md:flex-row-reverse px-10  py-10 flex-col-reverse justify-around bg-gray-900">
+            <div className="md:w-3/5">
               <div className="pt-5">
-                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
-                  Anil
+                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
+                  ANIL
                 </h1>
-                <h1 className="text-xl pb-5">GM</h1>
+                <h1 className="text-xl pb-5 text-gray-200">GM</h1>
               </div>
-              <div>
-                <p className="font-normal text-base  text-gray-600 leading-7">
+              <div className="pb-10">
+                <p className="font-normal text-base  text-gray-300 leading-7">
                   Mr. Anil Bepu the GM of Barakat Exhibitions is an experienced
                   professional with a rich and diverse background in exhibitions
                   and events planning, boasting over twenty years of experience
@@ -174,23 +174,25 @@ const About = () => {
               </div>
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img className=" w-64" src={GMImage} alt="Himanshu Img" />
+              <img className=" w-64" src={GMImage} alt="GM Img" />
 
-              <p className=" font-medium text-xl leading-5 text-gray-800 mt-4">
+              <p className=" font-medium text-xl leading-5 text-gray-200 mt-4">
                 Anil
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row justify-around">
-            <div className="w-3/5">
+          <div className="flex md:flex-row -mt-10 px-10 flex-col-reverse justify-around bg-gray-900">
+            <div className="md:w-3/5">
               <div className="pt-5">
-                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
+                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
                   Srinu Y
                 </h1>
-                <h1 className="text-xl pb-5">Operations Manager</h1>
+                <h1 className="text-xl pb-5 text-gray-200">
+                  Operations Manager
+                </h1>
               </div>
               <div>
-                <p className="font-normal text-base  text-gray-600 leading-7">
+                <p className="font-normal text-base  text-gray-300 leading-7">
                   With a rich and diverse background in exhibitions and events
                   planning, Mr. Srinu can bring a wealth of experience and a
                   proven track record of success to the table. Over the course
@@ -212,17 +214,17 @@ const About = () => {
               </div>
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img className=" w-64" src={Srinu} alt="Himanshu Img" />
+              <img className=" w-64" src={Srinu} alt="Operation Manger's Img" />
 
-              <p className=" font-medium text-xl leading-5 text-gray-800 mt-4">
+              <p className=" font-medium text-xl leading-5 text-gray-200 mt-4 py-10">
                 Srinu
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row justify-around">
-            <div className="w-3/5">
+          <div className="flex md:flex-row-reverse px-10 flex-col-reverse justify-around">
+            <div className="md:w-3/5">
               <div className="pt-5">
-                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
+                <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-900 pb-4">
                   Himanshu
                 </h1>
                 <h1 className="text-xl pb-5"> Manager Operations</h1>

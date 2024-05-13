@@ -11,6 +11,7 @@ const Home = () => {
       <Company />
       <Carousel />
       <GalleryView />
+
       <Footer />
     </>
   );

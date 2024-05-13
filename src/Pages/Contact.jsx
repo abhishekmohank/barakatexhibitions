@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 const Contact = () => {
   return (
     <div>
-      <div className="bg-[#002e5d]">
+      <div className="bg-gray-900">
         <Header />
       </div>
       <div>
@@ -31,7 +31,7 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-gray-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-gray-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -62,17 +62,22 @@ const Contact = () => {
                     <textarea
                       id="message"
                       name="message"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-gray-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-[#002e5d] border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">
+                  <button className="flex mx-auto text-white hover:bg-gray-700 border-0 py-2 px-8 focus:outline-none bg-gray-900 rounded text-lg">
                     Submit
                   </button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <a className="text-indigo-500">info@barakatexhibitions.com</a>
+                  <a
+                    className="text-[#002e5d]"
+                    href="mailto:info@barakatexhibitions.com"
+                  >
+                    info@barakatexhibitions.com
+                  </a>
                   <p className="leading-normal my-5">
                     Shams Al Barakat Exhibitions LLC
                     <br />
