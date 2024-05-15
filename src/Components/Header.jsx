@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between lg:w-9/12 m-auto py-2 bg-gray-900">
+    <div className="flex flex-col lg:flex-row items-center justify-between lg:w-9/12 m-auto py-2 bg-[#0a0a0a]">
       <div className="flex items-center justify-between w-full lg:w-auto mb-4 lg:mb-0">
         <a href="/">
           <img src={logo} alt="" className="max-w-72" />

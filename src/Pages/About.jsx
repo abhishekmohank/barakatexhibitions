@@ -1,5 +1,4 @@
 import Header from "../Components/Header";
-import gallery3 from "../assets/images/gallery3.jpg";
 import himanshu from "../assets/images/himanshu.jpg";
 //import gallery1 from "../assets/images/gallery1.jpg";
 import CeoImg from "../assets/images/Chandtan.jpg";
@@ -10,16 +9,16 @@ import Footer from "../Components/Footer";
 const About = () => {
   return (
     <div>
-      <div className="bg-gray-900">
+      <div className="bg-[#0a0a0a]">
         <Header />
       </div>
       <div className="2xl:container  py-9">
-        <div className="flex  flex-col 2xl:mx-auto lg:py-16  md:py-12 md:px-6 lg:flex-row lg:px-20justify-between gap-8">
-          <div className="w-full lg:w-5/12 flex flex-col justify-center p-5">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+        <div className="flex  flex-col 2xl:mx-auto lg:pb-16 pt-10  md:py-12 md:px-6 lg:flex-row lg:px-20 justify-center gap-8">
+          <div className="w-full lg:w-9/12 flex flex-col px-10 justify-center items-center text-center">
+            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-10">
               About Us
             </h1>
-            <p className="font-normal text-base leading-6 text-gray-600 ">
+            <p className="font-normal pb-5 text-base leading-6 text-gray-600 ">
               Shams Al Barakat Exhibitions LLC is a renowned company in the
               exhibition industry, known for its expertise in organizing and
               managing top-tier exhibitions and trade shows. With a strong
@@ -46,16 +45,16 @@ const About = () => {
               growth effectively.
             </p>
           </div>
-          <div className="w-full lg:w-8/12 ">
+          {/* <div className="w-full lg:w-8/12 ">
             <img
               className="w-full h-full"
               src={gallery3}
               alt="A group of People"
             />
-          </div>
+          </div> */}
         </div>
         <div className="flex lg:flex-row flex-col justify-center gap-8 py-10 bg-gray-900">
-          <div className="w-full lg:w-9/12 flex flex-col p-10 justify-center items-center">
+          <div className="w-full lg:w-9/12 flex flex-col p-10 justify-center items-center text-center">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-white  pt-3 pb-5">
               Our Vision
             </h1>
@@ -87,8 +86,8 @@ const About = () => {
           <h1 className="text-3xl lg:text-4xl px-10 font-bold leading-9 text-gray-800 pb-4">
             Meet the Team
           </h1>
-          <div className="flex md:flex-row flex-col-reverse px-10 justify-around">
-            <div className="md:w-3/5">
+          <div className="flex md:flex-row flex-col-reverse px-10 justify-around text-center">
+            <div className="md:w-3/5 pb-10">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
                   Chandran Bepu
@@ -142,7 +141,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row-reverse px-10  py-10 flex-col-reverse justify-around bg-gray-900">
+          <div className="flex md:flex-row-reverse px-10  py-10 flex-col-reverse justify-around bg-gray-900 text-center">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
@@ -181,7 +180,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row -mt-10 px-10 flex-col-reverse justify-around bg-gray-900">
+          <div className="flex md:flex-row -mt-10 px-10 flex-col-reverse justify-around bg-gray-900 text-center">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
@@ -221,7 +220,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row-reverse px-10 flex-col-reverse justify-around">
+          <div className="flex md:flex-row-reverse px-10 flex-col-reverse justify-around text-center">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-900 pb-4">

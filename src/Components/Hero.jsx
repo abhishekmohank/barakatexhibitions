@@ -4,7 +4,7 @@ import indiaVillage from "../assets/images/gvnight1.jpg";
 const Hero = () => {
   return (
     <div className="hero relative overflow-hidden bg-opacity-50">
-      <div className="bg-gray-900">
+      <div className="bg-[#0a0a0a]">
         <Header />
       </div>
       <img

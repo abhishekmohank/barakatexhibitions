@@ -31,7 +31,7 @@ const Gallery = () => {
 
   return (
     <div className="bg-[#002e5d] min-h-screen">
-      <div className="bg-gray-900">
+      <div className="bg-[#0a0a0a]">
         <Header />
       </div>
       <div className="gallery-container mx-auto max-w-7xl p-5 md:p-10">
