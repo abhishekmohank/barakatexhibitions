@@ -5,7 +5,7 @@ import Events from "../constants/events";
 const Event = () => {
   return (
     <>
-      <div className="bg-[#0a0a0a]">
+      <div className="bg-[#a7a9c6]">
         <Header />
       </div>
       <div className="xl:mx-auto xl:container">

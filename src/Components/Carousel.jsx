@@ -9,7 +9,7 @@ const Carousel = () => {
         <div className="w-3/4 text-center text-white ">
           <h1 className="text-3xl font-semibold mb-3">Experience</h1>
           <p className="text-md">
-            More than X Years of Experience in the Industry
+            More than 18 Years of Experience in the Industry
           </p>
         </div>
         <a

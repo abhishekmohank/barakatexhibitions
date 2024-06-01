@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 const Contact = () => {
   return (
     <div>
-      <div className="bg-[#0a0a0a]">
+      <div className="bg-[#a7a9c6]">
         <Header />
       </div>
       <div>

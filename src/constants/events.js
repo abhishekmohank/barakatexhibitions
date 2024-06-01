@@ -3,12 +3,12 @@ import gallery1 from "../assets/images/gallery1.jpg";
 const Events = [
   {
     id: 1,
-    title: "HAWA HERITAGE FESTIVAL",
+    title: "HAWA HERITAGE FESTIVAL - MADINA SAUDI ARABIA",
     location: "MADINA",
-    date: "MAY 1 2024 JULY 2024",
+    date: "MAY 14 2024 JULY 2024",
     link: "https://www.google.com",
     description:
-      "HAWA HERITAGE FESTIVAL, Conducted in MADINA, SAUDI ARABIA from May 1 to July 2024",
+      "HAWA HERITAGE FESTIVAL, Conducted in MADINA, SAUDI ARABIA from May 15 to July 30 2024",
     image: gallery1,
   },
   {
@@ -17,12 +17,12 @@ const Events = [
     location: "SAUDI ARABIA",
     date: "NOV 2024",
     link: "https://www.google.com",
-    description: "JEDDA TRADEFARE, Conducted in SAUDI ARABIA from NOV 2024",
+    description: "JEDDA TRADE FARE, Conducted in SAUDI ARABIA from NOV 2024",
     image: "https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png",
   },
   {
     id: 3,
-    title: "KUWAIT INTERNATIONAL TRADEFARE",
+    title: "KUWAIT INTERNATIONAL TRADE FARE",
     location: "KUWAIT",
     date: "DEC 2024 - FEB 2025",
     link: "https://www.google.com",
@@ -36,7 +36,7 @@ const Events = [
     location: "ABU DHABI, UAE",
     date: "OCTOBER 2024 - 31 JANUARY 2025/www.google.com",
     description:
-      "SHEIKH ZAYED FESTIVAL, Conducted in SHARJAH, UAE from October 2025 to January 2025",
+      "SHEIKH ZAYED FESTIVAL, at Al Wathba, Abu Dhabi from Nov 1 2024 to 15th Feb 2025",
     image: "https://via.placeholder.com/150",
   },
 ];

@@ -9,7 +9,7 @@ import Footer from "../Components/Footer";
 const About = () => {
   return (
     <div>
-      <div className="bg-[#0a0a0a]">
+      <div className="bg-[#a7a9c6]">
         <Header />
       </div>
       <div className="2xl:container  py-9">
@@ -54,7 +54,7 @@ const About = () => {
           </div> */}
         </div>
         <div className="flex lg:flex-row flex-col justify-center gap-8 py-10 bg-gray-900">
-          <div className="w-full lg:w-9/12 flex flex-col p-10 justify-center items-center text-center">
+          <div className="w-full lg:w-9/12 flex flex-col p-10 justify-center items-center text-justify">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-white  pt-3 pb-5">
               Our Vision
             </h1>
@@ -86,7 +86,7 @@ const About = () => {
           <h1 className="text-3xl lg:text-4xl px-10 font-bold leading-9 text-gray-800 pb-4">
             Meet the Team
           </h1>
-          <div className="flex md:flex-row flex-col-reverse px-10 justify-around text-center">
+          <div className="flex md:flex-row flex-col-reverse px-10 justify-around text-justify">
             <div className="md:w-3/5 pb-10">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-800 pb-4">
@@ -141,7 +141,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row-reverse px-10  py-10 flex-col-reverse justify-around bg-gray-900 text-center">
+          <div className="flex md:flex-row-reverse px-10  py-10 flex-col-reverse justify-around bg-gray-900 text-justify">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
@@ -180,7 +180,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row -mt-10 px-10 flex-col-reverse justify-around bg-gray-900 text-center">
+          <div className="flex md:flex-row -mt-10 px-10 flex-col-reverse justify-around bg-gray-900 text-justify">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
@@ -220,7 +220,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:flex-row-reverse px-10 flex-col-reverse justify-around text-center">
+          <div className="flex md:flex-row-reverse px-10 flex-col-reverse justify-around text-justify">
             <div className="md:w-3/5">
               <div className="pt-5">
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-900 pb-4">

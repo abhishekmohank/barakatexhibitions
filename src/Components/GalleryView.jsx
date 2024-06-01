@@ -57,7 +57,7 @@ const GalleryView = () => {
               className="font-semibold text-xl text-white align-middle	hover:text-black"
             >
               {" "}
-              View Gallery {">"}
+              View Gallery
             </a>
           </div>
         </div>

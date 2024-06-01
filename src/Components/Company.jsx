@@ -1,16 +1,16 @@
-import indiaVillage from "../assets/images/gvindia.jpg";
+import gvnight2 from "../assets/images/gvnight2.jpg";
 
 const Company = () => {
   return (
     <div>
       <img
-        src={indiaVillage}
+        src={gvnight2}
         alt=""
         className="absolute object-cover -z-10 w-full "
       />
 
       <div className="relative p-20 flex justify-center">
-        <div className="bg-[#a60000] opacity-50 absolute inset-0"></div>
+        <div className="bg-gray-800 opacity-50 absolute inset-0"></div>
         <div className="md:w-96 md:h-96 bg-white flex flex-col  text-center relative z-10 rounded-[30px]">
           <h1 className="p-5 pt-10 font-semibold text-3xl">
             Team of Exhibition Specialist
