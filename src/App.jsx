@@ -5,6 +5,7 @@ import "./App.css";
 import Events from "./Pages/Events";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />{" "}
+          {/* Add a route for "/login" */}
           {/* Add a catch-all route for unmatched paths (optional) */}
           <Route
             path="*"
