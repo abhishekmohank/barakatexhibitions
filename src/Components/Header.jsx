@@ -32,6 +32,9 @@ const Header = () => {
         }`}
       >
         <li className="hover:text-red-800 text-[#822168] font-medium">
+          <a href="/">HOME</a>
+        </li>
+        <li className="hover:text-red-800 text-[#822168] font-medium">
           <a href="/about">ABOUT</a>
         </li>
         <li className="hover:text-red-800 text-[#822168] font-medium">
@@ -42,6 +45,9 @@ const Header = () => {
         </li>
         <li className="hover:text-red-800 text-[#822168] font-medium">
           <a href="contact">CONTACT</a>
+        </li>
+        <li className="hover:text-red-800 text-[#822168] font-medium">
+          <a href="/about">LOGIN</a>
         </li>
       </ul>
     </div>

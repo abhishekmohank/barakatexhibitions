@@ -13,7 +13,7 @@ const Carousel = () => {
           </p>
         </div>
         <a
-          href="/Events"
+          href="/About"
           className="mt-3 text-white text-lg hover:text-gray-950"
         >
           Read More
@@ -68,7 +68,8 @@ const Carousel = () => {
           </p>
         </div>
         <a
-          href="/Contact"
+          target="blank"
+          href="https://maps.app.goo.gl/FXHqaNJxntM1myCF7"
           className="mt-3 text-white text-lg hover:text-gray-900"
         >
           Read More
