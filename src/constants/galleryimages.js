@@ -11,6 +11,9 @@ import gallery3 from "../assets/images/gallery3.jpg";
 import gallery4 from "../assets/images/gallery4.jpg";
 import gallery5 from "../assets/images/gallery5.jpg";
 import gallery6 from "../assets/images/gallery6.jpg";
+import gallery7 from "../assets/images/gallery7.jpg";
+import gallery8 from "../assets/images/gallery8.jpg";
+import gallery9 from "../assets/images/gallery9.jpg";
 
 const Images = [
   {
@@ -60,6 +63,18 @@ const Images = [
   {
     index: 12,
     src: gallery6,
+  },
+  {
+    index: 13,
+    src: gallery7,
+  },
+  {
+    index: 14,
+    src: gallery8,
+  },
+  {
+    index: 15,
+    src: gallery9,
   },
 ];
 

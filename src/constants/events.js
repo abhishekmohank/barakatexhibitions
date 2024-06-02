@@ -1,4 +1,7 @@
 import gallery1 from "../assets/images/gallery1.jpg";
+import gallery7 from "../assets/images/gallery7.jpg";
+import gallery8 from "../assets/images/gallery8.jpg";
+import gallery9 from "../assets/images/gallery9.jpg";
 
 const Events = [
   {
@@ -18,7 +21,7 @@ const Events = [
     date: "NOV 2024",
     link: "https://www.google.com",
     description: "JEDDA TRADE FARE, Conducted in SAUDI ARABIA from NOV 2024",
-    image: "https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png",
+    image: gallery7,
   },
   {
     id: 3,
@@ -28,7 +31,7 @@ const Events = [
     link: "https://www.google.com",
     description:
       "KUWAIT INTERNATIONAL TRADEFARE, Conducted in KUWAIT from DEC 2024 to FEB 2025",
-    image: "https://via.placeholder.com/150",
+    image: gallery8,
   },
   {
     id: 4,
@@ -37,7 +40,7 @@ const Events = [
     date: "OCTOBER 2024 - 31 JANUARY 2025/www.google.com",
     description:
       "SHEIKH ZAYED FESTIVAL, at Al Wathba, Abu Dhabi from Nov 1 2024 to 15th Feb 2025",
-    image: "https://via.placeholder.com/150",
+    image: gallery9,
   },
 ];
 
