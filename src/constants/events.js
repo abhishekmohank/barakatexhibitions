@@ -1,8 +1,7 @@
 import gallery1 from "../assets/images/gallery1.jpg";
 import gallery7 from "../assets/images/gallery7.jpg";
-import gallery8 from "../assets/images/gallery8.jpg";
-import gallery9 from "../assets/images/gallery9.jpg";
-
+import event3 from "../assets/images/event3.jpg";
+import event4 from "../assets/images/event4.jpg";
 const Events = [
   {
     id: 1,
@@ -31,7 +30,7 @@ const Events = [
     link: "https://www.google.com",
     description:
       "KUWAIT INTERNATIONAL TRADEFARE, Conducted in KUWAIT from DEC 2024 to FEB 2025",
-    image: gallery8,
+    image: event4,
   },
   {
     id: 4,
@@ -40,7 +39,7 @@ const Events = [
     date: "OCTOBER 2024 - 31 JANUARY 2025/www.google.com",
     description:
       "SHEIKH ZAYED FESTIVAL, at Al Wathba, Abu Dhabi from Nov 1 2024 to 15th Feb 2025",
-    image: gallery9,
+    image: event3,
   },
 ];
 

@@ -8,7 +8,7 @@ import Footer from "../Components/Footer";
 
 const About = () => {
   return (
-    <div>
+    <div className="h-screen">
       <div className="bg-[#a7a9c6]">
         <Header />
       </div>
@@ -147,7 +147,7 @@ const About = () => {
                 <h1 className="text-xl lg:text-2xl font-bold leading-9 text-gray-100 pb-4">
                   ANIL
                 </h1>
-                <h1 className="text-xl pb-5 text-gray-200">GM</h1>
+                <h1 className="text-xl pb-5 text-gray-200">General Manager</h1>
               </div>
               <div className="pb-10">
                 <p className="font-normal text-base  text-gray-300 leading-7">
