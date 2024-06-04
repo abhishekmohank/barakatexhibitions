@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="bg-gray-900 text-white">
       <div className="container mx-auto gap-8 px-4 py-8 flex flex-col md:flex-row justify-center items-center">
         <a
-          href="https://maps.app.goo.gl/FXHqaNJxntM1myCF7"
+          href="https://maps.app.goo.gl/WoK68Ef8w7Pjftxu9"
           className="flex items-center mb-4 md:mb-0"
         >
           <svg
