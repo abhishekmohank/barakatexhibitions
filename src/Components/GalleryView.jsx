@@ -51,10 +51,10 @@ const GalleryView = () => {
               />
             </div>
           </div>
-          <div className="bg-[#a60000] h-14 flex items-center justify-center mt-10 w-52 rounded-xl">
+          <div className="bg-gray-900 h-14 flex items-center justify-center mt-10 w-52 rounded-xl">
             <a
               href="/Gallery"
-              className="font-semibold text-xl text-white align-middle	hover:text-black"
+              className="font-semibold text-xl hover:text-white align-middle	text-gray-300"
             >
               {" "}
               View Gallery

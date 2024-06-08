@@ -45,7 +45,7 @@ const Carousel = () => {
           Read More
         </a>
       </div>
-      <div className="flex flex-col gap-2 md:w-1/4 items-center justify-center p-16 bg-[#a60000]">
+      <div className="flex flex-col gap-2 md:w-1/4 items-center justify-center p-16 bg-white">
         <div className="py-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Carousel = () => {
             />
           </svg>
         </div>
-        <div className="w-3/4 text-center text-white ">
+        <div className="w-3/4 text-center  ">
           <h1 className="text-3xl font-semibold mb-3">Our Offices</h1>
           <p>
             We are headquartered in Dubai, UAE. Our work covers the Middle East
@@ -70,7 +70,7 @@ const Carousel = () => {
         <a
           target="blank"
           href="https://maps.app.goo.gl/WoK68Ef8w7Pjftxu9"
-          className="mt-3 text-white text-lg hover:text-gray-900"
+          className="mt-3  text-lg hover:text-[#a60000]"
         >
           Read More
         </a>
