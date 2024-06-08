@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="2xl:container  py-9">
         <div className="flex  flex-col 2xl:mx-auto lg:pb-16 pt-10  md:py-12 md:px-6 lg:flex-row lg:px-20 justify-center gap-8">
-          <div className="w-full lg:w-9/12 flex flex-col px-10 justify-center items-center text-center">
+          <div className="w-full lg:w-9/12 flex flex-col px-10 justify-center items-center text-justify">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-10">
               About Us
             </h1>

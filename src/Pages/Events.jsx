@@ -20,22 +20,15 @@ const Event = () => {
                 />
               </div>
               <div className="lg:w-1/2 lg:pl-12 lg:pr-24">
-                <p className="text-sm leading-none text-gray-600 pb-2">
+                <p className="leading-none text-gray-600 pb-2 text-base">
                   {event.location}
                 </p>
                 <p className="md:text-3xl lg:text-4xl text-2xl font-semibold lg:leading-9 text-gray-800 lg:pb-6 md:pb-4 pb-2">
                   {event.title}
                 </p>
-                <p className="text-sm leading-5 text-gray-600 md:pb-10 pb-8">
+                <p className="text-md leading-5 text-gray-600 md:pb-10 pb-8">
                   {event.description}
                 </p>
-                <div className="md:block flex items-center justify-center">
-                  <a href={event.link}>
-                    <button className="lg:w-auto w-full border border-gray-800 hover:text-gray-50 hover:bg-gray-800 focus:outline-none lg:px-10 px-7 lg:py-4 py-3 text-sm leading-none text-gray-800">
-                      Read More
-                    </button>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
