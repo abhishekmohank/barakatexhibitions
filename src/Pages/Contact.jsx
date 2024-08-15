@@ -22,14 +22,22 @@ const Contact = () => {
           </div>
           <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center flex flex-row items-center justify-center gap-6">
             <p className="leading-normal my-5">
-              Shams Al Barakat Exhibitions LLC
-              <br />
-              Dubai, UAE
+              Shams Al Barakat Exhibitions LLC <br />
+              Office: M-09 <br />
+              Arabilla Building, <br />
+              15C Street, Hor Al Anz East, <br />
+              Dubai, UAE <br />
+              <a
+                href="https://maps.app.goo.gl/Luj85duGsPQ88YvU6"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                View on Google Maps
+              </a>
             </p>
-            {/* <span className="inline-flex"> */}
             <a
               href="https://www.instagram.com/barakatexhibitions/"
-              className=" text-gray-500 hover:text-pink-600"
+              className="text-gray-500 hover:text-pink-600"
               target="_blank"
             >
               <svg
@@ -45,7 +53,6 @@ const Contact = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            {/* </span> */}
           </div>
         </section>
       </div>
