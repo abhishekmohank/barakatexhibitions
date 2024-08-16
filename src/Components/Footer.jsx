@@ -30,7 +30,7 @@ const Footer = () => {
           </svg>
           <div>
             <h1 className="font-semibold">Visit</h1>
-            <p>Shams Al Barakat Exhibitions LLC Office: M-09 Arabilla Building, 15C Street, Hor Al Anz East, Dubai -UAE</p>
+            <p>Dubai -UAE</p>
           </div>
         </a>
         <div className="flex items-center mb-4 md:mb-0">
