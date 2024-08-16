@@ -69,7 +69,7 @@ const Carousel = () => {
         </div>
         <a
           target="blank"
-          href="https://maps.app.goo.gl/WoK68Ef8w7Pjftxu9"
+          href="https://maps.app.goo.gl/kex1Ed72K5aquwGU7?g_st=iw"
           className="mt-3  text-lg text-white hover:text-gray-950"
         >
           Read More
