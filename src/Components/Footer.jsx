@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto gap-8 px-4 py-8 flex flex-col md:flex-row justify-center items-center">
         <a
           target="_blank"
-          href="https://maps.app.goo.gl/WoK68Ef8w7Pjftxu9"
+          href="https://www.google.com/maps?q=25.2838306427002,55.3522300720215"
           className="flex items-center mb-4 md:mb-0"
         >
           <svg
@@ -33,7 +33,7 @@ const Footer = () => {
             <p>Dubai-UAE</p>
           </div>
         </a>
-        <div className="flex items-center mb-4 md:mb-0 ">
+        <div className="flex items-center mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
