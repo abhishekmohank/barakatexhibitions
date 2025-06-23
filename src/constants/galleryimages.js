@@ -22,11 +22,13 @@ import gallery14 from "../assets/images/gallery14.jpg";
 import gallery15 from "../assets/images/gallery15.jpg";
 import gallery16 from "../assets/images/gallery16.jpg";
 import gallery17 from "../assets/images/gallery17.jpg";
+import gallery18 from "../assets/images/gallery18.jpg";
+import gallery19 from "../assets/images/gallery19.jpg";
 
 const Images = [
   {
     index: 15,
-    src: gallery10,
+    src: gallery16,
   },
   {
     index: 16,
@@ -34,11 +36,11 @@ const Images = [
   },
   {
     index: 17,
-    src: gallery12,
+    src: gallery14,
   },
   {
     index: 10,
-    src: gallery16,
+    src: gallery10,
   },
   {
     index: 18,
@@ -46,7 +48,7 @@ const Images = [
   },
   {
     index: 19,
-    src: gallery14,
+    src: gallery12,
   },
   {
     index: 21,
@@ -60,18 +62,19 @@ const Images = [
     index: 1,
     src: gallery1,
   },
-  // {
-  //   index: 2,
-  //   src: gallery2,
-  // },
-  // {
-  //   index: 3,
-  //   src: gallery3,
-  // },
+  {
+    index: 2,
+    src: gallery18,
+  },
   {
     index: 4,
     src: gvnight1,
   },
+  {
+    index: 3,
+    src: gallery19,
+  },
+  
   {
     index: 5,
     src: gvnight2,
