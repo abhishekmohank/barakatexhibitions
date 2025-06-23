@@ -20,7 +20,6 @@ import gallery12 from "../assets/images/gallery12.jpg";
 import gallery13 from "../assets/images/gallery13.jpg";
 import gallery14 from "../assets/images/gallery14.jpg";
 import gallery15 from "../assets/images/gallery15.jpg";
-import gallery16 from "../assets/images/gallery16.jpg";
 
 const Images = [
   {
