@@ -14,6 +14,15 @@ import gallery7 from "../assets/images/gallery7.jpg";
 import gallery8 from "../assets/images/gallery8.jpg";
 import gallery9 from "../assets/images/gallery9.jpg";
 
+import gallery10 from "../assets/images/gallery10.jpg";
+import gallery11 from "../assets/images/gallery11.jpg";
+import gallery12 from "../assets/images/gallery12.jpg";
+import gallery13 from "../assets/images/gallery13.jpg";
+import gallery14 from "../assets/images/gallery14.jpg";
+import gallery15 from "../assets/images/gallery15.jpg";
+import gallery16 from "../assets/images/gallery16.jpg";
+
+
 const Images = [
   {
     index: 1,
@@ -71,6 +80,36 @@ const Images = [
     index: 14,
     src: gallery9,
   },
+
+    {
+    index: 15,
+    src: gallery10,
+  },
+  {
+    index: 16,
+    src: gallery11,
+  },
+  {
+    index: 17,
+    src: gallery12,
+  },
+  {
+    index: 18,
+    src: gallery13,
+  },
+  {
+    index: 19,
+    src: gallery14,
+  },
+  {
+    index: 20,
+    src: gallery15,
+  },
+  {
+    index: 21,
+    src: gallery16,
+  }
+
 ];
 
 export default Images;
