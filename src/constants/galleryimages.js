@@ -20,6 +20,8 @@ import gallery12 from "../assets/images/gallery12.jpg";
 import gallery13 from "../assets/images/gallery13.jpg";
 import gallery14 from "../assets/images/gallery14.jpg";
 import gallery15 from "../assets/images/gallery15.jpg";
+import gallery16 from "../assets/images/gallery16.jpg";
+import gallery17 from "../assets/images/gallery17.jpg";
 
 const Images = [
   {
@@ -35,12 +37,20 @@ const Images = [
     src: gallery12,
   },
   {
+    index: 10,
+    src: gallery16,
+  },
+  {
     index: 18,
     src: gallery13,
   },
   {
     index: 19,
     src: gallery14,
+  },
+  {
+    index: 21,
+    src: gallery17,
   },
   {
     index: 20,

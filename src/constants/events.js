@@ -2,7 +2,7 @@ import gallery1 from "../assets/images/gallery1.jpg";
 import gallery7 from "../assets/images/gallery7.jpg";
 import event3 from "../assets/images/event3.jpg";
 import event4 from "../assets/images/event4.jpg";
-import event5 from "../assets/images/LITTLEWORLD.jpg";
+import event5 from "../assets/images/littileworldkuwait.jpg";
 import event6 from "../assets/images/Damam.jpg";
 
 const Events = [
@@ -19,7 +19,7 @@ const Events = [
   {
     id: 6,
     title: "LITTLE WORLD KUWAIT Season-2",
-    location: "KUWAIT INTERNATIONAL TRADEFARE",
+    location: "Mishrif - Kuwait",
     date: "4 Nov 2025 to 14 Feb 2026",
     link: "https://example.com",
     description:
