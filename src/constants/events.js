@@ -1,8 +1,8 @@
 import gallery1 from "../assets/images/gallery1.jpg";
 import gallery7 from "../assets/images/gallery7.jpg";
 import event3 from "../assets/images/event3.jpg";
-import event4 from "../assets/images/event4.jpg";
-import event5 from "../assets/images/littileworldkuwait.jpg";
+import event4 from "../assets/images/littileworldkuwait.jpg";
+import event5 from "../assets/images/LITTLEWORLD.jpg";
 import event6 from "../assets/images/Damam.jpg";
 
 const Events = [

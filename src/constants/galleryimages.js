@@ -60,14 +60,14 @@ const Images = [
     index: 1,
     src: gallery1,
   },
-  {
-    index: 2,
-    src: gallery2,
-  },
-  {
-    index: 3,
-    src: gallery3,
-  },
+  // {
+  //   index: 2,
+  //   src: gallery2,
+  // },
+  // {
+  //   index: 3,
+  //   src: gallery3,
+  // },
   {
     index: 4,
     src: gvnight1,
