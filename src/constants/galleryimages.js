@@ -22,8 +22,35 @@ import gallery14 from "../assets/images/gallery14.jpg";
 import gallery15 from "../assets/images/gallery15.jpg";
 import gallery16 from "../assets/images/gallery16.jpg";
 
-
 const Images = [
+  {
+    index: 15,
+    src: gallery10,
+  },
+  {
+    index: 16,
+    src: gallery11,
+  },
+  {
+    index: 17,
+    src: gallery12,
+  },
+  {
+    index: 18,
+    src: gallery13,
+  },
+  {
+    index: 19,
+    src: gallery14,
+  },
+  {
+    index: 20,
+    src: gallery15,
+  },
+  {
+    index: 21,
+    src: gallery16,
+  },
   {
     index: 1,
     src: gallery1,
@@ -61,10 +88,6 @@ const Images = [
     src: gallery4,
   },
   {
-    index: 10,
-    src: gallery5,
-  },
-  {
     index: 11,
     src: gallery6,
   },
@@ -79,37 +102,7 @@ const Images = [
   {
     index: 14,
     src: gallery9,
-  },
-
-    {
-    index: 15,
-    src: gallery10,
-  },
-  {
-    index: 16,
-    src: gallery11,
-  },
-  {
-    index: 17,
-    src: gallery12,
-  },
-  {
-    index: 18,
-    src: gallery13,
-  },
-  {
-    index: 19,
-    src: gallery14,
-  },
-  {
-    index: 20,
-    src: gallery15,
-  },
-  {
-    index: 21,
-    src: gallery16,
   }
-
 ];
 
 export default Images;
