@@ -48,10 +48,6 @@ const Images = [
     src: gallery15,
   },
   {
-    index: 21,
-    src: gallery16,
-  },
-  {
     index: 1,
     src: gallery1,
   },
