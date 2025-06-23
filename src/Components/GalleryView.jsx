@@ -1,6 +1,6 @@
 import gallery1 from "../assets/images/gallery1.jpg";
-import gallery2 from "../assets/images/gallery2.jpg";
-import gallery3 from "../assets/images/gallery3.jpg";
+import gallery18 from "../assets/images/gallery18.jpg";
+import gallery19 from "../assets/images/gallery19.jpg";
 import gvnight3 from "../assets/images/gvnight3.jpg";
 
 const GalleryView = () => {
@@ -28,7 +28,7 @@ const GalleryView = () => {
             </div>
             <div>
               <img
-                src={gallery2}
+                src={gallery18}
                 alt=""
                 className="object-contain"
                 width={350}
@@ -36,7 +36,7 @@ const GalleryView = () => {
             </div>
             <div>
               <img
-                src={gallery3}
+                src={gallery19}
                 alt=""
                 className="object-contain"
                 width={350}
