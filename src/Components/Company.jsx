@@ -13,7 +13,7 @@ const Company = () => {
         <div className="bg-gray-800 opacity-50 absolute inset-0"></div>
         <div className="md:w-96 md:h-96 bg-white flex flex-col  text-center relative z-10 rounded-[30px]">
           <h1 className="p-5 pt-10 font-semibold text-3xl">
-            Team of Exhibition Specialist
+            Team of Exhibition Specialists
           </h1>
           <p className="px-8 pt-5 text-base">
             Shams Al Barakat Exhibitions LLC is the Event and Exhibition
