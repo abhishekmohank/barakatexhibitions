@@ -1,9 +1,9 @@
 import Header from "../Components/Header";
-import himanshu from "../assets/images/himanshu.jpg";
-//import gallery1 from "../assets/images/gallery1.jpg";
-import CeoImg from "../assets/images/Chandtan.jpg";
-import GMImage from "../assets/images/Anil.jpg";
-import Srinu from "../assets/images/Srinu.jpg";
+import himanshu from "../assets/images/himanshu.webp";
+//import gallery1 from "../assets/images/gallery1.webp";
+import CeoImg from "../assets/images/Chandtan.webp";
+import GMImage from "../assets/images/Anil.webp";
+import Srinu from "../assets/images/Srinu.webp";
 import Footer from "../Components/Footer";
 
 const team = [

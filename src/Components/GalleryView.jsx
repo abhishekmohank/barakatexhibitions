@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import gallery1 from "../assets/images/gallery1.jpg";
-import gallery18 from "../assets/images/gallery18.jpg";
-import gallery19 from "../assets/images/gallery19.jpg";
-import gvnight3 from "../assets/images/gvnight3.jpg";
+import gallery1 from "../assets/images/gallery1.webp";
+import gallery18 from "../assets/images/gallery18.webp";
+import gallery19 from "../assets/images/gallery19.webp";
+import gvnight3 from "../assets/images/gvnight3.webp";
 
 const images = [gallery1, gallery18, gallery19, gvnight3];
 

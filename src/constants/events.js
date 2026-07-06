@@ -1,10 +1,10 @@
-import gallery1 from "../assets/images/gallery1.jpg";
-import gallery7 from "../assets/images/gallery7.jpg";
-import event3 from "../assets/images/event3.jpg";
-import event4 from "../assets/images/littileworldkuwait.jpg";
-import event5 from "../assets/images/LITTLEWORLD.jpg";
-import event6 from "../assets/images/Damam.jpg";
-import event7 from "../assets/images/Global_Carnival_Jeddah.jpg";
+import gallery1 from "../assets/images/gallery1.webp";
+import gallery7 from "../assets/images/gallery7.webp";
+import event3 from "../assets/images/event3.webp";
+import event4 from "../assets/images/littileworldkuwait.webp";
+import event5 from "../assets/images/LITTLEWORLD.webp";
+import event6 from "../assets/images/Damam.webp";
+import event7 from "../assets/images/Global_Carnival_Jeddah.webp";
 
 // Any image dropped into src/assets/images/<folder-name>/ is picked up
 // automatically and shown on that event's detail page - no code change needed.

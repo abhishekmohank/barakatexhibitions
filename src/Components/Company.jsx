@@ -1,4 +1,4 @@
-import gvnight2 from "../assets/images/gvnight2.jpg";
+import gvnight2 from "../assets/images/gvnight2.webp";
 
 const Company = () => {
   return (

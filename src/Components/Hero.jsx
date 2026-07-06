@@ -1,5 +1,5 @@
 import Header from "./Header";
-import indiaVillage from "../assets/images/gvnight1.jpg";
+import indiaVillage from "../assets/images/gvnight1.webp";
 
 const Hero = () => {
   return (
