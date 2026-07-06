@@ -22,7 +22,7 @@ const Company = () => {
             Shams Al Barakat Exhibitions LLC is the event and exhibition
             specialist based in Dubai, United Arab Emirates, engaged in
             exhibitions across the entire Middle East — Dubai, Abu Dhabi, and
-            Al Ain (UAE), Madina, Jeddah, and Riyadh (Saudi Arabia), and
+            Al Ain (UAE), Madina, Jeddah, and Riyadh (Saudi Arabia), and 
             Kuwait City (Kuwait).
           </p>
         </div>
