@@ -1,8 +1,6 @@
 import gallery1 from "../assets/images/gallery1.webp";
 import gallery1Thumb from "../assets/images/gallery1-thumb.webp";
 import gallery7 from "../assets/images/gallery7.webp";
-import event3 from "../assets/images/event3.webp";
-import event3Thumb from "../assets/images/event3-thumb.webp";
 import event4 from "../assets/images/littileworldkuwait.webp";
 import event4Thumb from "../assets/images/littileworldkuwait-thumb.webp";
 import event5 from "../assets/images/LITTLEWORLD.webp";
@@ -41,7 +39,7 @@ const Events = [
     link: "https://www.google.com",
     image: event7Thumb,
     images: imagesFor("Global Carnival Jeddah", event7),
-    status: "upcoming",
+    status: "past",
   },
   {
     id: 5,
@@ -92,19 +90,6 @@ const Events = [
     image: event4Thumb,
     images: imagesFor("LITTLE WORLD KUWAIT", event4),
     endDate: "2025-03-01",
-    status: "past",
-  },
-  {
-    id: 4,
-    title: "SHEIKH ZAYED FESTIVAL",
-    location: "ABU DHABI, UAE",
-    date: "OCTOBER 2024 - 31 JANUARY 2025",
-    description:
-      "SHEIKH ZAYED FESTIVAL, at Al Wathba, Abu Dhabi from  1st November 2024 to 15th February 2025",
-    link: "https://www.google.com",
-    image: event3Thumb,
-    images: [event3],
-    endDate: "2025-01-31",
     status: "past",
   },
 ];
