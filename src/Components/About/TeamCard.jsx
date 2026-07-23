@@ -19,7 +19,7 @@ const TeamCard = ({ member, index, onReadMore }) => {
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
       </div>
-      <div className="flex flex-col flex-1 p-6">
+      <div className="flex flex-col flex-1 items-center text-center p-6">
         <h3 className="font-satoshi text-xl font-bold tracking-tight text-gray-900">
           {member.name}
         </h3>
@@ -32,7 +32,7 @@ const TeamCard = ({ member, index, onReadMore }) => {
         <button
           onClick={() => onReadMore(member)}
           aria-haspopup="dialog"
-          className="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-[#822168] hover:gap-2 transition-all self-start"
+          className="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-[#822168] hover:gap-2 transition-all"
         >
           Read More
           <span aria-hidden="true">→</span>

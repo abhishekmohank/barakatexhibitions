@@ -4,7 +4,7 @@ import { MapPin, Calendar } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
 import StaticEvents from "../../constants/events";
 import { useSupabaseTable } from "../../hooks/useSupabaseTable";
-import { resolveEventStatus } from "../../lib/eventStatus";
+import { resolveEventStatus, eventSortValue } from "../../lib/eventStatus";
 
 const EventCard = ({ event, index }) => (
   <motion.div
@@ -80,6 +80,7 @@ const UpcomingEvents = () => {
 
   const upcomingEvents = [...supabaseEvents, ...StaticEvents]
     .filter((event) => resolveEventStatus(event) === "upcoming")
+    .sort((a, b) => eventSortValue(b) - eventSortValue(a))
     .slice(0, 3);
 
   if (upcomingEvents.length === 0) return null;

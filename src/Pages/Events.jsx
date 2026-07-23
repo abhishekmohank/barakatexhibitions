@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import StaticEvents from "../constants/events";
 import { useSupabaseTable } from "../hooks/useSupabaseTable";
-import { resolveEventStatus } from "../lib/eventStatus";
+import { resolveEventStatus, eventSortValue } from "../lib/eventStatus";
 
 const filters = [
   { key: "all", label: "All" },
@@ -30,10 +30,12 @@ const Event = () => {
     status: row.status || "upcoming",
   }));
 
-  const allEvents = [...supabaseEvents, ...StaticEvents].map((event) => ({
-    ...event,
-    status: resolveEventStatus(event),
-  }));
+  const allEvents = [...supabaseEvents, ...StaticEvents]
+    .map((event) => ({
+      ...event,
+      status: resolveEventStatus(event),
+    }))
+    .sort((a, b) => eventSortValue(b) - eventSortValue(a));
 
   const visibleEvents =
     activeFilter === "all"
